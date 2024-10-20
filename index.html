@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Port Scanner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="toggle-switch" id="toggleSwitch">
+    <div class="sun"></div>
+    <div class="moon"></div>
+  </div>
+  <div class="container">
+    <h1>Port Scanner</h1>
+    <form id="scanForm">
+      <label for="ipAddress">Target IP Address:</label>
+      <input type="text" id="ipAddress" placeholder="Enter IP Address" required>
+
+      <label for="ports">Ports (Optional):</label>
+      <input type="text" id="ports" placeholder="e.g., 22, 80, 443" disabled>
+
+      <div class="radio-options">
+        <input type="radio" id="allPorts" name="scanType" value="all" checked>
+        <label for="allPorts">Scan All Ports</label>
+
+        <input type="radio" id="customPorts" name="scanType" value="custom">
+        <label for="customPorts">Scan Custom Ports</label>
+      </div>
+
+      <button type="submit" id="scanButton">Scan</button>
+    </form>
+
+    <div id="results" class="hidden">
+      <h2>Scan Results</h2>
+      <p><strong>Open Ports:</strong></p>
+      <ul id="openPorts"></ul>
+
+      <p><strong>Closed Ports:</strong></p>
+      <ul id="closedPorts"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
