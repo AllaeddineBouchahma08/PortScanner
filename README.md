@@ -1,7 +1,3 @@
-Here's a revised version of the README content that incorporates the details about your project being a combined backend and frontend application:
-
----
-
 # Port Scanner
 
 ## Description
@@ -36,13 +32,3 @@ The Port Scanner is a lightweight and efficient network utility designed to iden
 - **Define the range of ports** to scan.
 - **Click on the "Scan" button** to start the scanning process. 
 - The results will be displayed on the webpage, showing the open ports and any relevant information.
-
-## Contributing
-Feel free to fork the repository and submit pull requests if you have suggestions or improvements!
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to modify any part to better suit your project's specifics!
