@@ -9,7 +9,7 @@ The Port Scanner is a lightweight and efficient network utility designed to iden
 - Python 3.x installed on your machine.
 - Ensure you have Flask (or any other web framework you're using) installed. You can install it via pip:
   ```bash
-  pip install Flask
+  pip install -r requirements.txt
   ```
 
 ### Running the Application
